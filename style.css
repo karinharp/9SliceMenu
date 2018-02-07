@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #E0E0E0;
+}
+
+h1, h2 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+/*========================================================================*/
+
+/*
+ * @ref: https://qiita.com/ue5963/items/f3d8828d7da6ad882c11
+ * @ref: http://border-image.com/
+ * @ref: https://guillemot.jp/web/365
+ */
+
+/*========================================================================*/
+
+nav.NavFilled ul {
+    display: flex;
+    background: #FFCCCC;
+    padding: 0;
+    list-style: none;
+}
+
+nav.NavFilled ul li:first-child {
+    margin-right: auto; 
+}
+
+nav.NavFilled li {
+    display: inline-block;
+    width: calc(100% / 4);
+}
+
+nav.NavFilled li > a {
+    color: #EFDFFF;
+    text-decoration: none;
+    text-align: center;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 29px 27px;
+    -moz-border-image: url(9sliceSample.png) 29 27 repeat;
+    -webkit-border-image: url(9sliceSample.png) 29 27 repeat;
+    -o-border-image: url(9sliceSample.png) 29 27 repeat;
+    border-image: url(9sliceSample.png) 29 27 fill repeat;    
+}
+
+nav.NavFilled li > a:hover {
+    opacity:0.7;
+    color: #FFFFFF;
+}
+ 
+nav.NavFilled li > a span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*========================================================================*/
+
+nav.NavJustify ul {
+    display: flex;
+    justify-content: space-between; 
+    background: #FFCCCC;
+    padding: 0;
+    list-style: none;
+}
+
+nav.NavJustify li > a {
+    color: #EFDFFF;
+    text-decoration: none;
+    text-align: center;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 29px 27px;
+    -moz-border-image: url(9sliceSample.png) 29 27 repeat;
+    -webkit-border-image: url(9sliceSample.png) 29 27 repeat;
+    -o-border-image: url(9sliceSample.png) 29 27 repeat;
+    border-image: url(9sliceSample.png) 29 27 fill repeat;    
+}
+
+nav.NavJustify li > a:hover {
+    opacity:0.7;
+    color: #FFFFFF;
+}
+ 
+nav.NavJustify li > a span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*========================================================================*/
+
+nav.Nav2Column ul {
+    display: flex;
+    background: #FFCCCC;
+    padding: 0;
+    list-style: none;
+}
+
+nav.Nav2Column ul li:first-child {
+    margin-right: auto; 
+}
+
+nav.Nav2Column li > a {
+    color: #EFDFFF;
+    text-decoration: none;
+    text-align: center;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 29px 27px;
+    -moz-border-image: url(9sliceSample.png) 29 27 repeat;
+    -webkit-border-image: url(9sliceSample.png) 29 27 repeat;
+    -o-border-image: url(9sliceSample.png) 29 27 repeat;
+    border-image: url(9sliceSample.png) 29 27 fill repeat;    
+}
+
+nav.Nav2Column li > a:hover {
+    opacity:0.7;
+    color: #FFFFFF;
+}
+ 
+nav.Nav2Column li > a span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*========================================================================*/
